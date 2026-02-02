@@ -1,0 +1,80 @@
+# =========================
+# Dependencies
+# =========================
+node_modules
+./node_modules/
+jspm_packages/
+
+# =========================
+# Build outputs
+# =========================
+dist/
+*.js
+*.js.map
+*.d.ts
+*.d.ts.map
+
+build/
+out/
+.cache/
+.tmp/
+
+# =========================
+# Logs
+# =========================
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs/
+*.log
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# OS / Editor files
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# VS Code
+.vscode/
+!.vscode/extensions.json
+
+# IntelliJ / WebStorm
+.idea/
+
+# =========================
+# TypeScript
+# =========================
+*.tsbuildinfo
+
+# =========================
+# Testing
+# =========================
+coverage/
+
+# =========================
+# Cache / Misc
+# =========================
+.eslintcache
+.stylelintcache
+*.cache
+
+# =========================
+# Package managers
+# =========================
+.pnpm-store/
+
+# =========================
+# Vite / Next / React specific
+# =========================
+.vite/
+.next/
+.vercel/
